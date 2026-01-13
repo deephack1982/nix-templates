@@ -104,6 +104,11 @@
             description = "Tofu development environment";
           };
 
+          zig = {
+            path = ./zig;
+            description = "Zig development environment";
+          };
+
           # Aliases
           terraform = tofu;
         };
