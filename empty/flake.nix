@@ -2,7 +2,7 @@
   description = "An empty flake template that you can adapt to your own environment";
 
   # Flake inputs
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
 
   # Flake outputs
   outputs =
@@ -38,7 +38,7 @@
             env = { };
 
             # Add any shell logic you want executed any time the environment is activated
-            shellHook = '''';
+            shellHook = "";
           };
         }
       );
